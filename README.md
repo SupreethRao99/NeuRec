@@ -20,6 +20,23 @@ A Link to the model checkpoint can be found on [Google Drive](https://drive.goog
 └── utils
     └── json2csv.py
 
+1 directory, 12 files
+(NeuralRecommendation) supreethrao@Supreeths-MacBook-Pro NeuRec % pip freeze > requirements.txt
+(NeuralRecommendation) supreethrao@Supreeths-MacBook-Pro NeuRec % tree
+.
+├── Data.zip
+├── LICENSE
+├── README.md
+├── Sony_NeuRec.ipynb
+├── requirements.txt
+├── src
+│   ├── configs.py
+│   ├── inference.py
+│   ├── model.py
+│   └── training.py
+└── utils
+    └── json2csv.py
+
 ```
 
 ## Recreating Results
