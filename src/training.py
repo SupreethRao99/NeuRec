@@ -1,5 +1,5 @@
-from model import RecommenderNet
-from configs import model_config
+from src.model import RecommenderNet
+from src.configs import model_config
 
 import os
 import random as rn

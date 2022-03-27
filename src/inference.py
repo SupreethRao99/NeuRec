@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from tensorflow.keras.models import load_model
 
-from configs import model_config
+from src.configs import model_config
 from training import preprocess_df
 
 
@@ -64,5 +64,5 @@ if __name__ == "__main__":
         except (ValueError, TypeError):
             pass
 
-    with open("submission.json", "w") as fp:
+    with open("../submission.json", "w") as fp:
         json.dump(recommendations, fp)
